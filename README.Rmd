@@ -639,7 +639,6 @@ t(cm_kmeans$byClass)
 t(cm_knn$byClass)
 t(cm_rf$byClass)
 t(cm_nb$byClass)
-
 ```
 
 Here we can see that each method make different clusters. Although in general most methods performed well, the naive Bayes algorithm performed the worst not being able of separate the members of AME, EUR and EAS.
