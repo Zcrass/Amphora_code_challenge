@@ -6,8 +6,18 @@ SGD
 ## Prerequisites
 
 For run the code presented bellow you will need some packages already
-installed in your system: caret, class, dplyr, docstring, ggplot2, gridExtra,
-naivebayes, plotly, poppr, randomForest, scorecard.
+installed in your system: 
+1. caret 
+2. class
+3. dplyr
+4. docstring
+5. ggplot2
+6. gridExtra
+7. naivebayes
+8. plotly
+9. poppr
+10. randomForest
+11. scorecard
 
 ## Task 1: Merge multiple files into a single table
 
