@@ -6,8 +6,8 @@ SGD
 ## Prerequisites
 
 For run the code presented bellow you will need some packages already
-installed in your system: caret class dplyr docstring ggplot2 gridExtra
-naivebayes plotly poppr randomForest scorecard
+installed in your system: caret, class, dplyr, docstring, ggplot2, gridExtra,
+naivebayes, plotly, poppr, randomForest, scorecard.
 
 ## Task 1: Merge multiple files into a single table
 
@@ -19,7 +19,7 @@ For this first task you need the library **dplyr** installed and also
 you had to specify your working directory and have a folder with all the
 samples that we will merge. In this case my working directory is
 **“D:/Users/Zalva/OneDrive/Amphora/final”** and my samples are stored in
-**“Challenge samples/”**
+**“Challenge samples/”**.
 
 ``` r
 ### Indicate working directory
@@ -381,7 +381,7 @@ data_pca <- load_geno(table_file, "ind_as_col", omitted=omit_ind)
 Once we load the genotype table in the correct format we can perform a
 PCA using **prcomp**. From the results of this we will extract the PCA
 values and join those to the superpopulation code from the coordination
-file
+file.
 
 ``` r
 # ### compute PCA and extract PCA values
